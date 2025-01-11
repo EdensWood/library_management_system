@@ -17,7 +17,7 @@ const bebasNeue = localFont({
   src: [
     {path: '/fonts/BebasNeue-Regular.ttf', weight: '400', style: 'normal'},
   ],
-  variable: '--bebas-Neue',
+  variable: '--bebas-neue',
 });
 
 export const metadata: Metadata = {
