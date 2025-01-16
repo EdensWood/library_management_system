@@ -4,15 +4,19 @@ const nextConfig: NextConfig = {
   images: {
     remotePatterns: [
       {
-        protocol:"https",
+        protocol: "https",
         hostname: "placehold.co",
       },
       {
-        protocol:'https',
-        hostname: 'm.media-amazon.com'
-      }
-    ]
-  }
+        protocol: "https",
+        hostname: "m.media-amazon.com",
+      },
+      { protocol: "https", 
+        hostname: "ik.imagkit.io",
+        port:'',
+      },
+    ],
+  },
 };
 
 export default nextConfig;
